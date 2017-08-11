@@ -1,0 +1,106 @@
+/* 
+* Content
+*/
+.panel
+{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.panel-title 
+{
+    color: inherit;
+}
+.panel-body 
+{
+    padding: 0px 3px 0px 3px;
+    border: 2px solid #efefef;
+	border-width: 0 4px 4px 4px;
+}
+
+.panel-content
+{
+    padding: 30px 30px 30px 30px;
+    text-align: left;
+}
+
+/*
+* General
+*/
+
+hr
+{
+    background-color: rgba(0,0,0,0.3);
+    border-top: 1px solid #000;
+}
+
+.page-header
+{
+    color: #fff;
+    text-shadow: 0 2px 10px rgba(0,0,0,.5);
+    border-bottom: none;
+}
+
+.panel-content ul
+{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.panel-content ul li.task-in-progress
+{
+    color: red;
+}
+
+.panel-content ul li.task-completed
+{
+    color: gray;
+}
+
+.panel-content ul li span.task-completed
+{
+    font-size: 20px;
+    color: green;
+    padding: 0px 10px 0px 0px;
+}
+
+.panel-content ul li.task-in-progress
+{
+    color: #000;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.panel-content ul li span
+{
+    font-size: 20px;
+    color: #000;
+    padding: 0px;
+}
+
+.panel-content ul li.task-waiting
+{
+    color: gray;
+    padding-left: 30px;
+}
+
+.media
+{
+    margin: 0px;
+}
+
+a.list-group-item {
+    height:auto;
+    min-height:220px;
+}
+a.list-group-item.active small {
+    color:#fff;
+}
+.stars 
+{
+    margin:20px auto 1px;    
+}
+
+.well
+{
+    margin-top: 20px;
+}

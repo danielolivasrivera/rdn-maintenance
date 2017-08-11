@@ -1,0 +1,224 @@
+/*
+ * Base structure
+ */
+
+html,
+body 
+{
+  height: 100%;
+  background: url('../../Content/images/maintenance/rdn-background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+
+body 
+{
+  background-color: #fff;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  
+  color: #000;
+  text-align: center;
+  font-size: 14px; 
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper 
+{
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
+ * Header
+ */
+
+
+
+/*
+* Inner
+*/
+
+.inner-container
+{
+  margin-top: 20px;
+}
+
+.inner
+{
+  padding: 10px 10px 10px 10px;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 40px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/*
+ * Footer
+ */
+
+ .footer-content
+{
+  color: #fff; /* IE8 proofing */
+  background-color: #000;
+  padding: 20px 0px 0px 0px;
+}
+
+/*
+ * Globals
+*/
+
+/*
+* Media Queries
+*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 767px)
+{
+  h1,
+  .h1 
+  {
+    font-size: 20px;
+  }
+
+   h4,
+  .h4 
+  {
+    font-size: 14px;
+  }
+
+  body
+  {
+    font-size: 11px; 
+  }
+
+  .panel-title
+  {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px)
+{
+  body
+  {
+    font-size: 12px; 
+  }
+
+  h1,
+  .h1 
+  {
+    font-size: 26px;
+  }
+  
+  h4,
+  .h4 
+  {
+    font-size: 14px;
+  }
+
+  .panel-title
+  {
+    font-size: 16px;
+  }
+  
+  .navbar-header 
+  {
+    margin-left: 40px;
+  }
+  
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner 
+  {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .cover-container 
+  {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px)
+{
+  body
+  {
+    font-size: 13px; 
+  } 
+
+  h1,
+  .h1 
+  {
+    font-size: 30px;
+  }
+  
+  h4,
+  .h4 
+  {
+    font-size: 16px;
+  }
+
+  .container,
+  .cover-container 
+  {
+    width: 800px;
+  }
+
+  .panel-title
+  {
+    font-size: 18px;
+  }  
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{
+  body
+  {
+    font-size: 14px; 
+  }
+  
+  h1,
+  .h1 
+  {
+    font-size: 36px;
+  }
+  
+  h4,
+  .h4 
+  {
+    font-size: 18px;
+  }
+
+  .panel-title
+  {
+    font-size: 20px;
+  }
+}
