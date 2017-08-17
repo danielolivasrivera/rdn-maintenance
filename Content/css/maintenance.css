@@ -58,7 +58,7 @@ hr
 
 .panel-content ul li span.task-completed
 {
-    font-size: 20px;
+    font-size: 15px;
     color: green;
     padding: 0px 10px 0px 0px;
 }
@@ -67,12 +67,12 @@ hr
 {
     color: #000;
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 .panel-content ul li span
 {
-    font-size: 20px;
+    font-size: 15px;
     color: #000;
     padding: 0px;
 }
@@ -80,7 +80,7 @@ hr
 .panel-content ul li.task-waiting
 {
     color: gray;
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 .media
